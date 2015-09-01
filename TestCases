@@ -1,0 +1,29 @@
+select * from tab;
+select col1,col2 from tab1,tab2;
+select max(col1) from tab1;
+select distinct(col1),distinct(col2) from tab1;
+select col1,col2 from tab1,tab2 where col1=10 and col2=20;
+select col1,col2 from tab1,tab2 where col1=10 or col2=20;
+select * from table1, table2 where table1.col1=table2.col2;
+select col1,col2 from table1,table2 where table1.col1=table2.col2;
+
+select * from table1;
+select * from table2;
+select * from table1,table2;
+select A,B from table1;
+select B from table2;
+select B from table1,table2;
+select max(A) from table1;
+select max(B) from table1;
+select max(C) from table1;
+select max(B) from table2;
+select max(D) from table2;
+
+select min(A) from table1;
+select min(B) from table2;
+
+select avg(A) from table1;
+select avg(B) from table2;
+
+select sum(A) from table1;
+select sum(B) from table2;
